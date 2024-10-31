@@ -3,7 +3,7 @@ import { usePathname } from "next/navigation";
 import React from "react";
 
 const EditOnGithub: React.FC = () => {
-  const baseRepo = "https://github.com/ScorchInteractive/ava-e1levate-guides";
+  const baseRepo = "https://github.com/c-cpt/ava-e1levate-guides";
   const pathname = usePathname();
   function getEditPath() {
     return `${baseRepo}/blob/main/content${

@@ -22,7 +22,7 @@ export default async function Page(props: {
       toc={page.data.toc}
       full={page.data.full}
       editOnGithub={{
-        owner: "ScorchInteractive",
+        owner: "c-cpt",
         repo: "ava-e1levate-guides",
         sha: "main",
         // file path, make sure it's valid
